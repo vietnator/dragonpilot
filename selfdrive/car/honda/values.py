@@ -708,7 +708,6 @@ FW_VERSIONS = {
   },
   CAR.CRV_5G: {
     (Ecu.programmedFuelInjection, 0x18da10f1, None): [
-      b'37805-5PA-AH20\x00\x00',
       b'37805-5PA-3060\x00\x00',
       b'37805-5PA-3080\x00\x00',
       b'37805-5PA-3180\x00\x00',
@@ -734,6 +733,7 @@ FW_VERSIONS = {
       b'37805-5PA-AB10\x00\x00',
       b'37805-5PA-AD10\x00\x00',
       b'37805-5PA-AF20\x00\x00',
+      b'37805-5PA-AH20\x00\x00',
       b'37805-5PA-C680\x00\x00',
       b'37805-5PD-Q630\x00\x00',
       b'37805-5PF-F730\x00\x00',
@@ -763,10 +763,10 @@ FW_VERSIONS = {
       b'57114-TMC-Z050\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
+      b'39990-TLA,A040\x00\x00',
       b'39990-TLA-A040\x00\x00',
       b'39990-TLA-A110\x00\x00',
       b'39990-TLA-A220\x00\x00',
-      b'39990-TLA,A040\x00\x00', # modified firmware
       b'39990-TME-T030\x00\x00',
       b'39990-TME-T120\x00\x00',
       b'39990-TMT-T010\x00\x00',
